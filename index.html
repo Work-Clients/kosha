@@ -5,24 +5,59 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kosha</title>
+    <meta name="description"
+      content="Your partner in defining strategies and building blocks to realise your Digital Transformation Vision.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
   </head>
 
   <body>
-    <nav class="navbar sticky-top bg-light mb-5">
-      <div class="container py-2">
+    <nav class="navbar sticky-top navbar-expand-lg bg-light shadow">
+      <div class="container py-3">
         <a class="navbar-brand" href="#">
           <img src="img/kosha-name.svg" alt="kosha" height="32">
         </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link active" href="#philosophy">Philosophy</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link active" href="#services">Services</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link active" href="#clients">Clients</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link active" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container" id="about">
       <div class="row mt-5">
         <div class="col-sm-12 col-md-6 d-flex align-items-center mb-4">
           <div>
@@ -37,119 +72,253 @@
       </div>
     </div>
 
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col">
-          <h3 class="fw-bold">Our Philosophy</h3>
+    <div class="container mt-5" id="philosophy">
+      <div class="row mb-4 py-4">
+        <div class="col-12">
+          <h3 class="fw-bold bg-dark text-white p-4 d-inline rounded">Our Philosophy</h3>
         </div>
       </div>
     </div>
 
-    <div class="container mb-5">
+    <div class="container mb-5 pb-5 d-none d-md-block">
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4">
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg"
+          <div class="card card-cover overflow-hidden text-white bg-dark rounded-4 shadow-lg the-card"
             style="background-image: url('img/beyond.svg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h2 class="pt-5 pb-3 px-3 mt-5 mb-4 display-6 lh-1 fw-bold bg-white rounded text-dark"
-                style="opacity: 0.9;">Beyond Technology Strategy</h2>
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 card-inner">
+              <div class="card-front">
+                <h4 class="pt-5 pb-3 px-3 mt-5 mb-4 display-7 lh-1 fw-bold bg-white rounded text-dark"
+                  style="opacity: 0.95;">Beyond Technology Strategy</h4>
+              </div>
+              <div class="card-back">
+                <p class="pt-5 pb-3 px-3 mt-5 mb-4 display-7 lh-1 fw-bold bg-white rounded text-dark"
+                  style="opacity: 0.95;">
+                  Digital Transformation is about culture and mindset. This is not a process. As well , this is much
+                  beyond technology strategy.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg"
+          <div class="card card-cover overflow-hidden text-white bg-dark rounded-4 shadow-lg the-card"
             style="background-image: url('img/workforce.svg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h2 class="pt-5 pb-3 px-3 mt-5 mb-4 display-6 lh-1 fw-bold bg-white rounded text-dark"
-                style="opacity: 0.9;">Building Future Workforce</h2>
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 card-inner">
+              <div class="card-front">
+                <h4 class="pt-5 pb-3 px-3 mt-5 mb-4 display-7 lh-1 fw-bold bg-white rounded text-dark"
+                  style="opacity: 0.95;">Digital transformation is about Building Future Ready Organisation</h4>
+              </div>
+              <div class="card-back">
+                <p class="pt-5 pb-3 px-3 mt-5 mb-4 display-7 lh-1 fw-bold bg-white rounded text-dark"
+                  style="opacity: 0.95;">
+                  If you thinking that your current employees are not ready to adopt digital transformation, soon your
+                  organisation will not be anymore attractive enough to future workforce.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg"
+          <div class="card card-cover overflow-hidden text-white bg-dark rounded-4 shadow-lg the-card"
             style="background-image: url('img/catalyst.svg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h2 class="pt-5 pb-3 px-3 mt-5 mb-4 display-6 lh-1 fw-bold bg-white rounded text-dark"
-                style="opacity: 0.9;">Catalysts to Digital Transport</h2>
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 card-inner">
+              <div class="card-front">
+                <h4 class="pt-5 pb-3 px-3 mt-5 mb-4 display-7 lh-1 fw-bold bg-white rounded text-dark"
+                  style="opacity: 0.95;">Catalysts to Digital Transformation</h4>
+              </div>
+              <div class="card-back">
+                <div class="pt-5 pb-3 px-3 mt-5 mb-4 display-7 lh-1 fw-bold bg-white rounded text-dark"
+                  style="opacity: 0.95;">
+                  <p class="mb-0">Agile mindset.</p>
+                  <p class="mb-0">Speed.</p>
+                  <p class="mb-0">Product Mindset.</p>
+                  <p class="mb-0">Learning Culture.</p>
+                  <p class="mb-0">Fail Fast & Learn Fast Approach Diversity & Inclusiveness.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container my-5">
-      <div class="row py-5">
-        <div class="col-md-6 mx-auto">
-          <h3 class="fw-bold">Why Choose Us?</h3>
-          <h5 class="display-6">A typical digital transformation consultant defines a target picture, say a North Star.
-            And we want to walk the journey with you in building each block towards that North Star & be your trusted
-            partner.</h5>
+    <div class="container my-5 d-block d-md-none">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 mb-4">
+          <div class="card text-bg-dark">
+            <img src="img/beyond.svg" class="card-img-top p-4" alt="bey">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Beyond Technology Strategy</h5>
+              <p class="card-text">Digital Transformation is about culture and mindset. This is not a process. As well , this is much
+                beyond technology strategy.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 mb-4">
+          <div class="card text-bg-dark">
+            <img src="img/workforce.svg" class="card-img-top p-4" alt="bey">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Digital transformation is about Building Future Ready Organisation</h5>
+              <p class="card-text">If you thinking that your current employees are not ready to adopt digital transformation, soon your
+                organisation will not be anymore attractive enough to future workforce.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 mb-4">
+          <div class="card text-bg-dark">
+            <img src="img/catalyst.svg" class="card-img-top p-4" alt="bey">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Catalysts to Digital Transformation</h5>
+              <p class="mb-0">Agile mindset.</p>
+                  <p class="mb-0">Speed.</p>
+                  <p class="mb-0">Product Mindset.</p>
+                  <p class="mb-0">Learning Culture.</p>
+                  <p class="mb-0">Fail Fast & Learn Fast Approach Diversity & Inclusiveness.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div style="background-color: #bbf7d0;" class="py-4 mb-4" id="choose">
+      <div class="container my-5">
+        <div class="row py-4">
+          <div class="col-sm-12 mx-auto">
+            <h3 class="fw-bold bg-dark text-white p-4 d-inline rounded">Why Choose Us?</h3>
+            <h5 class="display-6 mt-5">A typical digital transformation consultant defines a target picture, say a North
+              Star.</h5>
+            <h5 class="display-6 mt-5">And we want to walk the journey with you in building each block towards that
+              North Star & be your trusted partner.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 py-5" id="services">
       <div class="row">
+        <div class="col-sm-12 col-md-6 mb-4 d-flex align-items-center">
+          <div class="w-100">
+            <h3 class="fw-bold bg-dark text-white p-4 d-inline rounded">Our Services</h3>
+            <ul class="list-group mt-5">
+              <li class="list-group-item list-group-item-info d-flex flex-column">
+                <img src="img/check-fill.svg" alt="check" width="32">
+                <h5 class="mb-0 pt-4">Digital Transformation Strategy Consulting</h5>
+              </li>
+              <li class="list-group-item list-group-item-info d-flex flex-column">
+                <img src="img/check-fill.svg" alt="check" width="32">
+                <h5 class="mb-0 pt-4">Solution, Technology & Partner Evaluation</h5>
+              </li>
+              <li class="list-group-item list-group-item-info d-flex flex-column">
+                <img src="img/check-fill.svg" alt="check" width="32">
+                <h5 class="mb-0 pt-4">Implementation, Development & Training Services</h5>
+              </li>
+              <li class="list-group-item list-group-item-info d-flex flex-column">
+                <img src="img/check-fill.svg" alt="check" width="32">
+                <h5 class="mb-0 pt-4">Specialist Hiring</h5>
+              </li>
+            </ul>
+          </div>
+        </div>
         <div class="col-sm-12 col-md-6 d-flex align-items-center">
           <div class="text-center p-5">
             <img src="img/services.svg" alt="services" class="w-100">
           </div>
         </div>
-        <div class="col-sm-12 col-md-6 d-flex align-items-center">
-          <div class="w-100">
-            <h3 class="fw-bold">Our Services</h3>
-            <div class="bg-light p-5 rounded mb-3">
-              <img src="img/chevron.png" alt="item" height="32">
-              <h5 class="mb-0 mt-3">Digital Transformation Strategy Consulting</h5>
-            </div>
+      </div>
+    </div>
 
-            <div class="bg-light p-5 rounded mb-3">
-              <img src="img/chevron.png" alt="item" height="32">
-              <h5 class="mb-0 mt-3">Solution, Technology & Partner Evaluation</h5>
-            </div>
+    <div style="background-color: #fed7aa;" class="my-5 py-5" id="clients">
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div class="col-12 mb-5">
+            <h3 class="fw-bold bg-dark text-white p-4 d-inline rounded">Our Clients</h3>
+          </div>
+          <div class="col-sm-12 col-md-4 p-4 d-flex align-items-center">
+            <img src="img/logo-vlu-1.png" alt="vlu" class="img-fluid">
+          </div>
+          <div class="col-sm-12 col-md-4 p-5 d-flex align-items-center">
+            <img src="img/utslogo.png" alt="vlu" class="img-fluid">
+          </div>
+          <div class="col-sm-12 col-md-4 p-5 d-flex align-items-center">
+            <img src="img/capellalogo.png" alt="vlu" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
 
-            <div class="bg-light p-5 rounded mb-3">
-              <img src="img/chevron.png" alt="item" height="32">
-              <h5 class="mb-0 mt-3">Implementation, Development & Training Services</h5>
+    <div class="container mt-5 py-5" id="projects">
+      <div class="row py-4">
+        <div class="col-sm-12 mb-4">
+          <h3 class="fw-bold bg-dark text-white p-4 d-inline rounded">Our Projects</h3>
+          <div class="row mt-5">
+            <div class="col-sm-12 col-md-6 mb-4 d-flex align-items-center">
+              <div class="bg-dark text-white rounded-pill p-4 w-100 d-flex">
+                <img src="img/flag.png" alt="chev" width="32" height="32">
+                <div class="ms-3">
+                  <h4 class="mb-0">CRM</h4>
+                  <p class="mb-0">(Zoho, SFDC)</p>
+                </div>
+              </div>
             </div>
-
-            <div class="bg-light p-5 rounded mb-3">
-              <img src="img/chevron.png" alt="item" height="32">
-              <h5 class="mb-0 mt-3">Specialist Hiring</h5>
+            <div class="col-sm-12 col-md-6 mb-4 d-flex align-items-center">
+              <div class="bg-dark text-white rounded-pill p-4 w-100 d-flex">
+                <img src="img/flag.png" alt="chev" width="32" height="32">
+                <div class="ms-3">
+                  <h4 class="mb-0">Procurement Application</h4>
+                  <p class="mb-0">(Multiple SaaS Products)</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-4 d-flex align-items-center">
+              <div class="bg-dark text-white rounded-pill p-4 w-100 d-flex">
+                <img src="img/flag.png" alt="chev" width="32" height="32">
+                <div class="ms-3">
+                  <h4 class="mb-0">Website</h4>
+                  <p class="mb-0">(Design & Development)</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-4 d-flex align-items-center">
+              <div class="bg-dark text-white rounded-pill p-4 w-100 d-flex">
+                <img src="img/flag.png" alt="chev" width="32" height="32">
+                <div class="ms-3">
+                  <h4 class="mb-0">HRMS</h4>
+                  <p class="mb-0">(Zoho)</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-4 d-flex align-items-center">
+              <div class="bg-dark text-white rounded-pill p-4 w-100 d-flex">
+                <img src="img/flag.png" alt="chev" width="32" height="32">
+                <div class="ms-3">
+                  <h4 class="mb-0">Cloudy Telephony</h4>
+                  <p class="mb-0">(Zoho Voice, G Calls, 3CX)</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-4 d-flex align-items-center">
+              <div class="bg-dark text-white rounded-pill p-4 w-100 d-flex">
+                <img src="img/flag.png" alt="chev" width="32" height="32">
+                <div class="ms-3">
+                  <h4 class="mb-0">Call Centre Solution</h4>
+                  <p class="mb-0">(Zoho Desk, Fresh Desk)</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-12">
-          <h3 class="fw-bold">Clients</h3>
-        </div>
-        <div class="col-sm-12 col-md-4 p-4 d-flex align-items-center">
-          <img src="img/vlulogo.jpg" alt="vlu" class="img-fluid">
-        </div>
-        <div class="col-sm-12 col-md-4 p-4 d-flex align-items-center">
-          <img src="img/utslogo.png" alt="vlu" class="img-fluid">
-        </div>
-        <div class="col-sm-12 col-md-4 p-4 d-flex align-items-center">
-          <img src="img/capellalogo.png" alt="vlu" class="img-fluid">
-        </div>
-      </div>
-    </div>
-
-    <div id="pattern">
-      <div class="container mt-5">
+    <div id="contact">
+      <div class="container mt-5 py-5">
         <div class="row py-5">
           <div class="col-md-4 mx-auto">
-            <div class="bg-white p-4 mb-4">
-              <h4 class="mb-0">Transform your organisation today!</h4>
-            </div>
-            <div class="bg-white p-5">
-              <h3 class="fw-bold">Contact Us</h3>
+            <div class="bg-white p-5 shadow">
+              <small>Transform your organisation today! </small>
+              <h3 class="fw-bold mb-5">Contact Us</h3>
               <h4>info@koshatech.com</h4>
               <h4>+91 9959941386</h4>
               <div class="mt-5">
@@ -163,7 +332,7 @@
       </div>
     </div>
 
-    <div class="container my-5">
+    <div class="container mt-5 pt-5">
       <div class="row py-5">
         <div class="col-md-6 mx-auto">
           <img src="img/kosha-logo.svg" alt="logo" class="img-fluid">
@@ -171,11 +340,22 @@
       </div>
     </div>
 
-
+    <div class="container mt-5">
+      <footer class="row border-top p-4">
+        <div class="col-sm-12">
+          <div class="d-flex justify-content-between align-items-center flex-wrap">
+            <small class="mb-3 mb-md-0 text-muted">© 2022 Kosha</small>
+            <small class="mb-3 mb-md-0 text-muted">Desinged in collaboration with <a
+                href="https://prasanta.business" target="_blank">Prasanta Communications</a></small>
+          </div>
+        </div>
+      </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"></script>
+  
   </body>
 
 </html>
